@@ -18,6 +18,7 @@ class DetailScreen extends StatelessWidget {
               children: [
                  Image(
                   width: double.infinity,
+                  fit: BoxFit.fitWidth,
                   image: NetworkImage(groceryEntity.imageUrl),
                   height: 300,
                 ),
