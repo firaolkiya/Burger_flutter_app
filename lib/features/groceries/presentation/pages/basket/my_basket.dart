@@ -13,8 +13,8 @@ class MyBasket extends StatelessWidget {
         title: writeText(text: 'My Basket',fontWeight: FontWeight.bold),
       ),
       body: ListView.builder(
-        itemExtent: 5,
-        
+        itemCount: 5,
+        shrinkWrap: true,
         itemBuilder: (context, index) => basketCard(),),
     );
   }

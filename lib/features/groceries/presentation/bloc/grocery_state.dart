@@ -26,3 +26,4 @@ final class FailedState extends GroceryState{
  const  FailedState({required this.message});
   
 }
+
